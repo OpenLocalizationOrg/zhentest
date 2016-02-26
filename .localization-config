@@ -1,0 +1,33 @@
+{ 
+2   "filters": [ 
+3     { 
+4       "files": [ "virtualization/windowscontainers/*.md", "virtualization/windowscontainers/**/*.md" ], 
+5       "priorities": [ 
+6         { 
+7           "priority": "ht-test", 
+8           "locales": [ "zh-cn", "de-de"] 
+9         }, 
+10         { 
+11           "priority": "mt-test", 
+12           "locales": [ "ja-jp", "zh-tw"] 
+13         } 
+14       ] 
+15     }, 
+16     { 
+17       "files": [ "virtualization/hyperv_on_windows/*.md", "virtualization/hyperv_on_windows/**/*.md" ], 
+18       "priorities": [ 
+19         { 
+20           "priority": "ht-test", 
+21           "locales": [ "ja-jp", "zh-tw"] 
+22         }, 
+23         { 
+24           "priority": "mt-test", 
+25           "locales": [ "zh-cn", "de-de"] 
+26         } 
+27       ] 
+28     } 
+29   ], 
+30   "includeDependencies": true, 
+31   "autoPush": true, 
+32   "xliffVersion": "1.2" 
+33 } 
